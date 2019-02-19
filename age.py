@@ -4,12 +4,12 @@ age = 2019-dob
 def agecalc(age_input):
     print(age_input)
     if age_input < 18:
-        print("Am a child")
+        print("minor")
     elif age_input >= 18 and age_input <= 36:
-        print("Am a youth")
+        print("youth")
     else:
         age_input >36
-        print("Am an adult")
+        print("adult")
 
 agecalc(age)
     
