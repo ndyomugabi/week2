@@ -8,8 +8,8 @@ def agecalc(age_input):
     elif age_input >= 18 and age_input <= 36:
         print("youth")
     else:
-        age_input >36
-        print("adult")
+        
+        print("elder")
 
 agecalc(age)
     
